@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+JP:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+root,body,html{
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+
+}
+
+div,h1,h2,h3,h4,h5,h6,header,html,img,i,li,nav,label,p,small,span,ul{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: none;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent; 
+}
+button ,a, Link:hover{
+    cursor: pointer;
+
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        
+    }
+}
+
+
+keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+
+    }
+}

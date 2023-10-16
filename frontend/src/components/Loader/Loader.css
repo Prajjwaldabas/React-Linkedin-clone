@@ -1,0 +1,122 @@
+.spinner-container {
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    position: relative;
+
+   width: 100%;
+   height: 300vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    z-index: 999999;
+    transform: translate(-50%, -50%);
+}
+
+  .stick {
+    height: 80px;
+    width: 10px;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    left: calc(50% - 5px);
+  }
+  .stick:nth-child(1) {
+    top: calc(50% - 100px);
+    transform: rotate(0deg);
+    animation: glow-1 1.5s infinite;
+  }
+  .stick:nth-child(2) {
+    top: calc(50% - 100px);
+    transform: translate(40px,20px) rotate(45deg);
+    animation: glow-2 1.5s infinite;
+  }
+  .stick:nth-child(3) {
+    top: calc(50% - 100px);
+    transform: translate(60px, 60px) rotate(90deg);
+      animation: glow-3 1.5s infinite;
+  }
+  .stick:nth-child(4) {
+    top: calc(50% - 100px);
+    transform: translate(40px, 100px) rotate(135deg);
+      animation: glow-4 1.5s infinite;
+  }
+  .stick:nth-child(5) {
+    top: calc(50% - 100px);
+    transform: translate(0px, 120px);
+      animation: glow-5 1.5s infinite;
+  }
+  .stick:nth-child(6) {
+    top: calc(50% - 100px);
+    transform: translate(-40px, 100px) rotate(225deg);
+      animation: glow-6 1.5s infinite;
+  }
+  .stick:nth-child(7) {
+    top: calc(50% - 100px);
+    transform: translate(-60px, 60px) rotate(270deg);
+      animation: glow-7 1.5s infinite;
+  }
+  .stick:nth-child(8) {
+    top: calc(50% - 100px);
+    transform: translate(-40px, 20px) rotate(315deg);
+      animation: glow-8 1.5s infinite;
+  }
+  @keyframes glow-1 {
+      0% {background-color: tranparent;}
+      6.25% {background-color: #0A66C2;}
+      60% {background-color: transparent;}
+      100% {background-color: transparent;}
+  }
+  @keyframes glow-2 {
+      0% {background-color: tranparent;}
+      12.5% {background-color: transparent;}
+      18.5% {background-color: #0A66C2;}
+      66.25% {background-color: transparent;}
+    100% {background-color: transparent;}
+  }
+  @keyframes glow-3 {
+      0% {background-color: tranparent;}
+      25% {background-color: transparent;}
+      31.25% {background-color: #0A66C2;}
+      72.5% {background-color: transparent;}
+      100% {background-color: transparent;}
+  }
+  @keyframes glow-4 {
+      0% {background-color: tranparent;}
+      37.5% {background-color: transparent;}
+      43.75% {background-color: #0A66C2;}
+      78.75% {background-color: transparent;}
+      100% {background-color: transparent;}
+  }
+  @keyframes glow-5 {
+      0% {background-color: tranparent;}
+      50% {background-color: transparent;}
+      56.25% {background-color: #0A66C2;}
+      85% {background-color: transparent;}
+      100% {background-color: transparent;}
+  }
+  @keyframes glow-6 {
+      0% {background-color: tranparent;}
+      62.5% {background-color: transparent;}
+      68.75% {background-color: #0A66C2;}
+      91.25% {background-color: transparent;}
+      100% {background-color: transparent;}
+  }
+  
+  @keyframes glow-7 {
+      0% {background-color: tranparent;}
+      75% {background-color: transparent;}
+      81.25% {background-color: #0A66C2;}
+      97.5% {background-color: transparent;}
+  }
+  @keyframes glow-8 {
+      0% {background-color: tranparent;}
+      87% {background-color: transparent;}
+      93.25% {background-color: #0A66C2;}
+      100% {background-color: transparent;}
+  }
