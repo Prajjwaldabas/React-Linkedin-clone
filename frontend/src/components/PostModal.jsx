@@ -125,9 +125,9 @@ onChange={handleChange}
 
 {
     showfiles && <p>
-    <label htmlFor="file"
+    <button htmlFor="file"
     
-    >  Select an image to share</label>
+    >  Select an image to share</button>
 </p>
 }
 {

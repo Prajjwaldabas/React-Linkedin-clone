@@ -76,7 +76,7 @@ import {
   export function postArticleAPI(payload) {
     return (dispatch) => {
         dispatch(setLoading(true))
-      if (payload.image) {
+      if (payload.image ) {
         const storageRef = ref(getStorage(), `images/${payload.image.name}`);
   
         console.log('Storage Ref:', storageRef); // Add this line for debugging
